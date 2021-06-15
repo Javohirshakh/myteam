@@ -534,3 +534,77 @@ footer address{
 .clients-list__item:not(:last-child){
   margin-right: 80px;
 }
+
+
+/* contact page */
+
+
+.hero-contact {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  background: #014E56;
+  background-image: url("../img/contact-bg.png"),
+    url("../img/contact-bg2.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 720px) 250px, left calc(50% + 720px) bottom;
+}
+.hero-contact .inner{
+  margin-top: 110px;
+  display: flex;
+}
+.hero-contact .inner .inner__left{
+  width: 540px;
+}
+.inner__left h2{
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+  margin: 0;
+}
+.inner__left span{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--tomato-color);
+  margin-top: 16px;
+}
+.contact-list{
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+}
+.contact-list li{
+  padding: 27px 0;
+  padding-left: 90px;
+  background-image: url(../img/list-item-bg.png);
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+}
+.inner-right{
+  width: 540px;
+}
+.inner-right form{
+  width: 100%;
+}
+form input, form textarea{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  padding: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 150px;
+}
+form button{
+  margin-top: 24px;
+  padding: 10px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+  border-radius: var(--border-radius);
+  background-color: #fff;
+}
